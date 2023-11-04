@@ -64,7 +64,7 @@ void GlobalMenu() //меню выбора номер задания
                 system("clear");
                 if (TaskContent(3) == true)
                 {
-                    //Ex1main();
+                    Ex1main(workType);
                 }
                 break;
             case 2:
