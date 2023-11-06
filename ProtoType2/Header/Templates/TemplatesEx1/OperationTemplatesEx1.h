@@ -1,6 +1,5 @@
 #pragma once
 #include "Libraries.h"
-#include "TemplatesLibraries.h"
 
 template <typename T> T *ArrayCompression(T *array, int arraySize, T type) //функция сжатия массива
 {

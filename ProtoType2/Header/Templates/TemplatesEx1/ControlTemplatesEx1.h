@@ -1,7 +1,7 @@
 #pragma once
 #include "Libraries.h"
-#include "TemplatesLibraries.h"
-
+#include "OperationTemplatesEx1.h"
+#include "IsPosibleOperationsEx1.h"
 
 template <typename T> void DispleyBaseArray(T *array, int arraySize, T type)
 {
@@ -111,7 +111,7 @@ template <typename T> T *InputMassiv (int arraySize, T type, char typeId) //фу
             cout << "Введите " << i + 1 << " элемент массива из " << arraySize << ":" << endl;
             cin >> setw(11) >> inputBoofer;
         }
-        while(InputTypeCheck(inputBoofer, typeId) == false);//выход из цикла если функция проверки одобрит
+        while(InputTypeCheckEx1(inputBoofer, typeId) == false);//выход из цикла если функция проверки одобрит
         
         array[i] = atof(inputBoofer); //присвоение элементу массива по индексу значения введённого значения
     }

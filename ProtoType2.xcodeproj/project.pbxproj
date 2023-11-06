@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845B4B392AF6E2770065A40D /* IsPosibleOperationsEx2.h in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1D02AF6A8B7000C6E57 /* IsPosibleOperationsEx2.h */; };
+		845B4B3F2AF6FA5D0065A40D /* CheckSizeOrInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 845B4B3E2AF6FA5D0065A40D /* CheckSizeOrInt.cpp */; };
+		845B4B432AF797030065A40D /* ControlEx3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 845B4B422AF797030065A40D /* ControlEx3.cpp */; };
+		845B4B452AF7972F0065A40D /* SearchDispleyEx3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 845B4B442AF7972F0065A40D /* SearchDispleyEx3.cpp */; };
+		845B4B542AF8F3760065A40D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC19F2AF1363C000C6E57 /* main.cpp */; };
+		845B4B552AF8F3760065A40D /* GlMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1AA2AF13736000C6E57 /* GlMenu.cpp */; };
+		845B4B562AF8F3760065A40D /* TypeInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1AE2AF266F0000C6E57 /* TypeInput.cpp */; };
+		845B4B572AF8F3760065A40D /* ConfirmationOperation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1B02AF268EB000C6E57 /* ConfirmationOperation.cpp */; };
+		845B4B582AF8F3760065A40D /* TextContent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1B22AF269C3000C6E57 /* TextContent.cpp */; };
+		845B4B592AF8F37B0065A40D /* CheckSizeOrInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 845B4B3E2AF6FA5D0065A40D /* CheckSizeOrInt.cpp */; };
+		845B4B5A2AF8F37B0065A40D /* CheckFloatOrDouble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1BA2AF270C5000C6E57 /* CheckFloatOrDouble.cpp */; };
+		845B4B5B2AF8F37F0065A40D /* TypeStartEx1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1B62AF26FCB000C6E57 /* TypeStartEx1.cpp */; };
+		845B4B5C2AF8F37F0065A40D /* InputOperationsEx1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1B82AF2706D000C6E57 /* InputOperationsEx1.cpp */; };
+		845B4B5D2AF8F37F0065A40D /* OperationsEx1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1C02AF58FBA000C6E57 /* OperationsEx1.cpp */; };
+		845B4B5E2AF8F3860065A40D /* TypeStartEx2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1D52AF6AF5F000C6E57 /* TypeStartEx2.cpp */; };
+		845B4B5F2AF8F3860065A40D /* InputOperationsEx2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1D72AF6B621000C6E57 /* InputOperationsEx2.cpp */; };
+		845B4B602AF8F3860065A40D /* OperationsEx2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1D92AF6CC64000C6E57 /* OperationsEx2.cpp */; };
+		845B4B612AF8F38B0065A40D /* ControlEx3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 845B4B422AF797030065A40D /* ControlEx3.cpp */; };
+		845B4B622AF8F38B0065A40D /* SearchDispleyEx3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 845B4B442AF7972F0065A40D /* SearchDispleyEx3.cpp */; };
+		845B4B632AF8F38B0065A40D /* TextFile.txt in Sources */ = {isa = PBXBuildFile; fileRef = 845B4B462AF79F420065A40D /* TextFile.txt */; };
+		845B4B642AF8F3950065A40D /* Libraries.h in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1A82AF136EF000C6E57 /* Libraries.h */; };
+		845B4B652AF8F3950065A40D /* Prototypes.h in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1AC2AF13768000C6E57 /* Prototypes.h */; };
+		845B4B662AF8F39B0065A40D /* ControlTemplatesEx1.h in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1C22AF67BE4000C6E57 /* ControlTemplatesEx1.h */; };
+		845B4B672AF8F39B0065A40D /* OperationTemplatesEx1.h in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1BC2AF4E819000C6E57 /* OperationTemplatesEx1.h */; };
+		845B4B682AF8F39B0065A40D /* IsPosibleOperationsEx1.h in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1C42AF67F86000C6E57 /* IsPosibleOperationsEx1.h */; };
+		845B4B692AF8F3A20065A40D /* ControlTemplatesEx2.h in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1CD2AF6A813000C6E57 /* ControlTemplatesEx2.h */; };
+		845B4B6A2AF8F3A20065A40D /* OperationTemplatesEx2.h in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1CE2AF6A870000C6E57 /* OperationTemplatesEx2.h */; };
+		845B4B6B2AF8F3A20065A40D /* IsPosibleOperationsEx2.h in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1D02AF6A8B7000C6E57 /* IsPosibleOperationsEx2.h */; };
+		845B4B6D2AF8F6910065A40D /* TextFile.txt in Sources */ = {isa = PBXBuildFile; fileRef = 845B4B462AF79F420065A40D /* TextFile.txt */; };
 		84ACC1A02AF1363C000C6E57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC19F2AF1363C000C6E57 /* main.cpp */; };
 		84ACC1A92AF13718000C6E57 /* Libraries.h in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1A82AF136EF000C6E57 /* Libraries.h */; };
 		84ACC1AB2AF13736000C6E57 /* GlMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1AA2AF13736000C6E57 /* GlMenu.cpp */; };
@@ -16,16 +45,20 @@
 		84ACC1B32AF269C3000C6E57 /* TextContent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1B22AF269C3000C6E57 /* TextContent.cpp */; };
 		84ACC1B72AF26FCB000C6E57 /* TypeStartEx1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1B62AF26FCB000C6E57 /* TypeStartEx1.cpp */; };
 		84ACC1B92AF2706D000C6E57 /* InputOperationsEx1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1B82AF2706D000C6E57 /* InputOperationsEx1.cpp */; };
-		84ACC1BB2AF270C5000C6E57 /* CheckInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1BA2AF270C5000C6E57 /* CheckInput.cpp */; };
+		84ACC1BB2AF270C5000C6E57 /* CheckFloatOrDouble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1BA2AF270C5000C6E57 /* CheckFloatOrDouble.cpp */; };
 		84ACC1BD2AF4EA60000C6E57 /* OperationTemplatesEx1.h in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1BC2AF4E819000C6E57 /* OperationTemplatesEx1.h */; };
-		84ACC1C12AF58FBA000C6E57 /* IsPosibleOperationEx1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1C02AF58FBA000C6E57 /* IsPosibleOperationEx1.cpp */; };
+		84ACC1C12AF58FBA000C6E57 /* OperationsEx1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1C02AF58FBA000C6E57 /* OperationsEx1.cpp */; };
 		84ACC1C52AF68213000C6E57 /* ControlTemplatesEx1.h in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1C22AF67BE4000C6E57 /* ControlTemplatesEx1.h */; };
 		84ACC1C62AF68213000C6E57 /* IsPosibleOperationsEx1.h in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1C42AF67F86000C6E57 /* IsPosibleOperationsEx1.h */; };
-		84ACC1C72AF68217000C6E57 /* TemplatesLibraries.h in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1C32AF67C21000C6E57 /* TemplatesLibraries.h */; };
+		84ACC1D12AF6A8EF000C6E57 /* ControlTemplatesEx2.h in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1CD2AF6A813000C6E57 /* ControlTemplatesEx2.h */; };
+		84ACC1D22AF6A8EF000C6E57 /* OperationTemplatesEx2.h in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1CE2AF6A870000C6E57 /* OperationTemplatesEx2.h */; };
+		84ACC1D62AF6AF5F000C6E57 /* TypeStartEx2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1D52AF6AF5F000C6E57 /* TypeStartEx2.cpp */; };
+		84ACC1D82AF6B621000C6E57 /* InputOperationsEx2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1D72AF6B621000C6E57 /* InputOperationsEx2.cpp */; };
+		84ACC1DA2AF6CC64000C6E57 /* OperationsEx2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84ACC1D92AF6CC64000C6E57 /* OperationsEx2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		84ACC19A2AF1363C000C6E57 /* CopyFiles */ = {
+		845B4B4B2AF8F3510065A40D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -34,9 +67,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		84ACC19A2AF1363C000C6E57 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		845B4B3E2AF6FA5D0065A40D /* CheckSizeOrInt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CheckSizeOrInt.cpp; sourceTree = "<group>"; };
+		845B4B422AF797030065A40D /* ControlEx3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ControlEx3.cpp; sourceTree = "<group>"; };
+		845B4B442AF7972F0065A40D /* SearchDispleyEx3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearchDispleyEx3.cpp; sourceTree = "<group>"; };
+		845B4B462AF79F420065A40D /* TextFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TextFile.txt; sourceTree = "<group>"; };
+		845B4B4D2AF8F3510065A40D /* GrandTarget */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GrandTarget; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ACC19C2AF1363C000C6E57 /* ProtoType2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProtoType2; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ACC19F2AF1363C000C6E57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		84ACC1A82AF136EF000C6E57 /* Libraries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Libraries.h; sourceTree = "<group>"; };
@@ -47,15 +94,27 @@
 		84ACC1B22AF269C3000C6E57 /* TextContent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextContent.cpp; sourceTree = "<group>"; };
 		84ACC1B62AF26FCB000C6E57 /* TypeStartEx1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TypeStartEx1.cpp; sourceTree = "<group>"; };
 		84ACC1B82AF2706D000C6E57 /* InputOperationsEx1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputOperationsEx1.cpp; sourceTree = "<group>"; };
-		84ACC1BA2AF270C5000C6E57 /* CheckInput.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CheckInput.cpp; sourceTree = "<group>"; };
+		84ACC1BA2AF270C5000C6E57 /* CheckFloatOrDouble.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CheckFloatOrDouble.cpp; sourceTree = "<group>"; };
 		84ACC1BC2AF4E819000C6E57 /* OperationTemplatesEx1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationTemplatesEx1.h; sourceTree = "<group>"; };
-		84ACC1C02AF58FBA000C6E57 /* IsPosibleOperationEx1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IsPosibleOperationEx1.cpp; sourceTree = "<group>"; };
+		84ACC1C02AF58FBA000C6E57 /* OperationsEx1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OperationsEx1.cpp; sourceTree = "<group>"; };
 		84ACC1C22AF67BE4000C6E57 /* ControlTemplatesEx1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlTemplatesEx1.h; sourceTree = "<group>"; };
-		84ACC1C32AF67C21000C6E57 /* TemplatesLibraries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplatesLibraries.h; sourceTree = "<group>"; };
 		84ACC1C42AF67F86000C6E57 /* IsPosibleOperationsEx1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsPosibleOperationsEx1.h; sourceTree = "<group>"; };
+		84ACC1CD2AF6A813000C6E57 /* ControlTemplatesEx2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlTemplatesEx2.h; sourceTree = "<group>"; };
+		84ACC1CE2AF6A870000C6E57 /* OperationTemplatesEx2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationTemplatesEx2.h; sourceTree = "<group>"; };
+		84ACC1D02AF6A8B7000C6E57 /* IsPosibleOperationsEx2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsPosibleOperationsEx2.h; sourceTree = "<group>"; };
+		84ACC1D52AF6AF5F000C6E57 /* TypeStartEx2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TypeStartEx2.cpp; sourceTree = "<group>"; };
+		84ACC1D72AF6B621000C6E57 /* InputOperationsEx2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputOperationsEx2.cpp; sourceTree = "<group>"; };
+		84ACC1D92AF6CC64000C6E57 /* OperationsEx2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OperationsEx2.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		845B4B4A2AF8F3510065A40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		84ACC1992AF1363C000C6E57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,6 +125,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		845B4B402AF6FD000065A40D /* TypeCheckFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				845B4B3E2AF6FA5D0065A40D /* CheckSizeOrInt.cpp */,
+				84ACC1BA2AF270C5000C6E57 /* CheckFloatOrDouble.cpp */,
+			);
+			path = TypeCheckFunctions;
+			sourceTree = "<group>";
+		};
+		845B4B412AF796B70065A40D /* Ex3 */ = {
+			isa = PBXGroup;
+			children = (
+				845B4B422AF797030065A40D /* ControlEx3.cpp */,
+				845B4B442AF7972F0065A40D /* SearchDispleyEx3.cpp */,
+				845B4B462AF79F420065A40D /* TextFile.txt */,
+			);
+			path = Ex3;
+			sourceTree = "<group>";
+		};
 		84ACC1932AF1363C000C6E57 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				84ACC19C2AF1363C000C6E57 /* ProtoType2 */,
+				845B4B4D2AF8F3510065A40D /* GrandTarget */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +175,6 @@
 			children = (
 				84ACC1A82AF136EF000C6E57 /* Libraries.h */,
 				84ACC1AC2AF13768000C6E57 /* Prototypes.h */,
-				84ACC1C32AF67C21000C6E57 /* TemplatesLibraries.h */,
 				84ACC1BF2AF58C9C000C6E57 /* Templates */,
 			);
 			path = Header;
@@ -105,9 +183,11 @@
 		84ACC1A72AF136C7000C6E57 /* Sourses */ = {
 			isa = PBXGroup;
 			children = (
-				84ACC1C82AF68270000C6E57 /* New Group */,
 				84ACC1B42AF26D00000C6E57 /* Menu */,
+				845B4B402AF6FD000065A40D /* TypeCheckFunctions */,
 				84ACC1B52AF26D3D000C6E57 /* Ex_1 */,
+				84ACC1D42AF6AEC3000C6E57 /* Ex2 */,
+				845B4B412AF796B70065A40D /* Ex3 */,
 			);
 			path = Sourses;
 			sourceTree = "<group>";
@@ -129,8 +209,7 @@
 			children = (
 				84ACC1B62AF26FCB000C6E57 /* TypeStartEx1.cpp */,
 				84ACC1B82AF2706D000C6E57 /* InputOperationsEx1.cpp */,
-				84ACC1C02AF58FBA000C6E57 /* IsPosibleOperationEx1.cpp */,
-				84ACC1BA2AF270C5000C6E57 /* CheckInput.cpp */,
+				84ACC1C02AF58FBA000C6E57 /* OperationsEx1.cpp */,
 			);
 			path = Ex_1;
 			sourceTree = "<group>";
@@ -138,23 +217,62 @@
 		84ACC1BF2AF58C9C000C6E57 /* Templates */ = {
 			isa = PBXGroup;
 			children = (
-				84ACC1C22AF67BE4000C6E57 /* ControlTemplatesEx1.h */,
-				84ACC1BC2AF4E819000C6E57 /* OperationTemplatesEx1.h */,
-				84ACC1C42AF67F86000C6E57 /* IsPosibleOperationsEx1.h */,
+				84ACC1CB2AF6A672000C6E57 /* TemplatesEx1 */,
+				84ACC1CC2AF6A742000C6E57 /* TemplatesEx2 */,
 			);
 			path = Templates;
 			sourceTree = "<group>";
 		};
-		84ACC1C82AF68270000C6E57 /* New Group */ = {
+		84ACC1CB2AF6A672000C6E57 /* TemplatesEx1 */ = {
 			isa = PBXGroup;
 			children = (
+				84ACC1C22AF67BE4000C6E57 /* ControlTemplatesEx1.h */,
+				84ACC1BC2AF4E819000C6E57 /* OperationTemplatesEx1.h */,
+				84ACC1C42AF67F86000C6E57 /* IsPosibleOperationsEx1.h */,
 			);
-			path = "New Group";
+			path = TemplatesEx1;
+			sourceTree = "<group>";
+		};
+		84ACC1CC2AF6A742000C6E57 /* TemplatesEx2 */ = {
+			isa = PBXGroup;
+			children = (
+				84ACC1CD2AF6A813000C6E57 /* ControlTemplatesEx2.h */,
+				84ACC1CE2AF6A870000C6E57 /* OperationTemplatesEx2.h */,
+				84ACC1D02AF6A8B7000C6E57 /* IsPosibleOperationsEx2.h */,
+			);
+			path = TemplatesEx2;
+			sourceTree = "<group>";
+		};
+		84ACC1D42AF6AEC3000C6E57 /* Ex2 */ = {
+			isa = PBXGroup;
+			children = (
+				84ACC1D52AF6AF5F000C6E57 /* TypeStartEx2.cpp */,
+				84ACC1D72AF6B621000C6E57 /* InputOperationsEx2.cpp */,
+				84ACC1D92AF6CC64000C6E57 /* OperationsEx2.cpp */,
+			);
+			path = Ex2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		845B4B4C2AF8F3510065A40D /* GrandTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845B4B512AF8F3510065A40D /* Build configuration list for PBXNativeTarget "GrandTarget" */;
+			buildPhases = (
+				845B4B492AF8F3510065A40D /* Sources */,
+				845B4B4A2AF8F3510065A40D /* Frameworks */,
+				845B4B4B2AF8F3510065A40D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrandTarget;
+			productName = GrandTarget;
+			productReference = 845B4B4D2AF8F3510065A40D /* GrandTarget */;
+			productType = "com.apple.product-type.tool";
+		};
 		84ACC19B2AF1363C000C6E57 /* ProtoType2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84ACC1A32AF1363C000C6E57 /* Build configuration list for PBXNativeTarget "ProtoType2" */;
@@ -181,6 +299,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					845B4B4C2AF8F3510065A40D = {
+						CreatedOnToolsVersion = 14.0;
+					};
 					84ACC19B2AF1363C000C6E57 = {
 						CreatedOnToolsVersion = 14.0;
 					};
@@ -200,29 +321,70 @@
 			projectRoot = "";
 			targets = (
 				84ACC19B2AF1363C000C6E57 /* ProtoType2 */,
+				845B4B4C2AF8F3510065A40D /* GrandTarget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		845B4B492AF8F3510065A40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845B4B692AF8F3A20065A40D /* ControlTemplatesEx2.h in Sources */,
+				845B4B6A2AF8F3A20065A40D /* OperationTemplatesEx2.h in Sources */,
+				845B4B6B2AF8F3A20065A40D /* IsPosibleOperationsEx2.h in Sources */,
+				845B4B662AF8F39B0065A40D /* ControlTemplatesEx1.h in Sources */,
+				845B4B672AF8F39B0065A40D /* OperationTemplatesEx1.h in Sources */,
+				845B4B682AF8F39B0065A40D /* IsPosibleOperationsEx1.h in Sources */,
+				845B4B642AF8F3950065A40D /* Libraries.h in Sources */,
+				845B4B652AF8F3950065A40D /* Prototypes.h in Sources */,
+				845B4B612AF8F38B0065A40D /* ControlEx3.cpp in Sources */,
+				845B4B622AF8F38B0065A40D /* SearchDispleyEx3.cpp in Sources */,
+				845B4B632AF8F38B0065A40D /* TextFile.txt in Sources */,
+				845B4B5E2AF8F3860065A40D /* TypeStartEx2.cpp in Sources */,
+				845B4B5F2AF8F3860065A40D /* InputOperationsEx2.cpp in Sources */,
+				845B4B602AF8F3860065A40D /* OperationsEx2.cpp in Sources */,
+				845B4B5B2AF8F37F0065A40D /* TypeStartEx1.cpp in Sources */,
+				845B4B5C2AF8F37F0065A40D /* InputOperationsEx1.cpp in Sources */,
+				845B4B5D2AF8F37F0065A40D /* OperationsEx1.cpp in Sources */,
+				845B4B592AF8F37B0065A40D /* CheckSizeOrInt.cpp in Sources */,
+				845B4B5A2AF8F37B0065A40D /* CheckFloatOrDouble.cpp in Sources */,
+				845B4B542AF8F3760065A40D /* main.cpp in Sources */,
+				845B4B552AF8F3760065A40D /* GlMenu.cpp in Sources */,
+				845B4B562AF8F3760065A40D /* TypeInput.cpp in Sources */,
+				845B4B572AF8F3760065A40D /* ConfirmationOperation.cpp in Sources */,
+				845B4B582AF8F3760065A40D /* TextContent.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		84ACC1982AF1363C000C6E57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84ACC1C72AF68217000C6E57 /* TemplatesLibraries.h in Sources */,
-				84ACC1C52AF68213000C6E57 /* ControlTemplatesEx1.h in Sources */,
-				84ACC1C62AF68213000C6E57 /* IsPosibleOperationsEx1.h in Sources */,
-				84ACC1BD2AF4EA60000C6E57 /* OperationTemplatesEx1.h in Sources */,
-				84ACC1AD2AF137BD000C6E57 /* Prototypes.h in Sources */,
+				845B4B6D2AF8F6910065A40D /* TextFile.txt in Sources */,
 				84ACC1A92AF13718000C6E57 /* Libraries.h in Sources */,
+				84ACC1AD2AF137BD000C6E57 /* Prototypes.h in Sources */,
+				845B4B452AF7972F0065A40D /* SearchDispleyEx3.cpp in Sources */,
+				84ACC1D12AF6A8EF000C6E57 /* ControlTemplatesEx2.h in Sources */,
+				84ACC1C52AF68213000C6E57 /* ControlTemplatesEx1.h in Sources */,
+				845B4B392AF6E2770065A40D /* IsPosibleOperationsEx2.h in Sources */,
+				84ACC1C62AF68213000C6E57 /* IsPosibleOperationsEx1.h in Sources */,
+				845B4B432AF797030065A40D /* ControlEx3.cpp in Sources */,
+				84ACC1D22AF6A8EF000C6E57 /* OperationTemplatesEx2.h in Sources */,
+				84ACC1BD2AF4EA60000C6E57 /* OperationTemplatesEx1.h in Sources */,
+				84ACC1DA2AF6CC64000C6E57 /* OperationsEx2.cpp in Sources */,
+				84ACC1D62AF6AF5F000C6E57 /* TypeStartEx2.cpp in Sources */,
+				84ACC1D82AF6B621000C6E57 /* InputOperationsEx2.cpp in Sources */,
+				845B4B3F2AF6FA5D0065A40D /* CheckSizeOrInt.cpp in Sources */,
 				84ACC1AB2AF13736000C6E57 /* GlMenu.cpp in Sources */,
 				84ACC1B92AF2706D000C6E57 /* InputOperationsEx1.cpp in Sources */,
 				84ACC1A02AF1363C000C6E57 /* main.cpp in Sources */,
-				84ACC1C12AF58FBA000C6E57 /* IsPosibleOperationEx1.cpp in Sources */,
+				84ACC1C12AF58FBA000C6E57 /* OperationsEx1.cpp in Sources */,
 				84ACC1B12AF268EB000C6E57 /* ConfirmationOperation.cpp in Sources */,
 				84ACC1B32AF269C3000C6E57 /* TextContent.cpp in Sources */,
 				84ACC1B72AF26FCB000C6E57 /* TypeStartEx1.cpp in Sources */,
-				84ACC1BB2AF270C5000C6E57 /* CheckInput.cpp in Sources */,
+				84ACC1BB2AF270C5000C6E57 /* CheckFloatOrDouble.cpp in Sources */,
 				84ACC1AF2AF266F0000C6E57 /* TypeInput.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +392,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		845B4B522AF8F3510065A40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		845B4B532AF8F3510065A40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		84ACC1A12AF1363C000C6E57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -358,6 +536,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		845B4B512AF8F3510065A40D /* Build configuration list for PBXNativeTarget "GrandTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845B4B522AF8F3510065A40D /* Debug */,
+				845B4B532AF8F3510065A40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		84ACC1972AF1363C000C6E57 /* Build configuration list for PBXProject "ProtoType2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

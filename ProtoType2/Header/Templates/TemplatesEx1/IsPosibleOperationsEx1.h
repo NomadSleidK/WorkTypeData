@@ -1,6 +1,5 @@
 #pragma once
 #include "Libraries.h"
-#include "TemplatesLibraries.h"
 
 //Is posible Operations Ex1
 

@@ -1,7 +1,7 @@
 #include "Libraries.h"
-#include "ControlTemplatesEx1.h"
+#include "ControlTemplatesEx2.h"
 
-bool InputTypeCheckEx1(char *dataInput, char typeId) //определяет тип ввода
+bool InputTypeCheckEx2(char *dataInput, char typeId) //определяет тип ввода
 {
     bool result = true;
     
@@ -19,21 +19,22 @@ bool InputTypeCheckEx1(char *dataInput, char typeId) //определяет ти
     return result;
 }
 
-void Ex1main(char typeId) //главная функция задания 1
+void Ex2main(char typeId) //главная функция задания 1
 {
     int arraySize = 0;
     
-    arraySize = ArraySizeInput(); //присвоили размер массива после его проверки
+    arraySize = MatrixSizeInput(); //присвоили размер массива после его проверки
     
     switch (typeId) {
         case 'i':
-            ArrayTypeInput(arraySize, 1, typeId);
+            MatrixTypeInput(arraySize, 1, typeId);
             break;
         case 'f':
-            ArrayTypeInput(arraySize, 1.0f, typeId);
+            MatrixTypeInput(arraySize, 1.0f, typeId);
             break;
         case 'd':
-            ArrayTypeInput(arraySize, 1.0, typeId);
+            MatrixTypeInput(arraySize, 1.0, typeId);
             break;
     }
 }
+

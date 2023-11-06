@@ -11,7 +11,5 @@
 #include <filesystem>
 #include <curses.h>
 
-
-
 using namespace std;
 

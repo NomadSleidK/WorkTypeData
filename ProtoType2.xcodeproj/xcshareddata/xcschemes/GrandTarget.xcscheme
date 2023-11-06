@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84ACC19B2AF1363C000C6E57"
-               BuildableName = "ProtoType2"
-               BlueprintName = "ProtoType2"
+               BlueprintIdentifier = "845B4B4C2AF8F3510065A40D"
+               BuildableName = "GrandTarget"
+               BlueprintName = "GrandTarget"
                ReferencedContainer = "container:ProtoType2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -35,8 +35,7 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
-      useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/admin/Documents/&#x422;&#x435;&#x445;&#x43d;&#x43e;&#x43b;&#x43e;&#x433;&#x438;&#x438; &#x43f;&#x440;&#x43e;&#x433;&#x440;&#x430;&#x43c;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x44f;/Laboratory_Work/ProtoType2/ProtoType2/Sourses/Ex3"
+      useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
@@ -47,9 +46,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84ACC19B2AF1363C000C6E57"
-            BuildableName = "ProtoType2"
-            BlueprintName = "ProtoType2"
+            BlueprintIdentifier = "845B4B4C2AF8F3510065A40D"
+            BuildableName = "GrandTarget"
+            BlueprintName = "GrandTarget"
             ReferencedContainer = "container:ProtoType2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -64,9 +63,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84ACC19B2AF1363C000C6E57"
-            BuildableName = "ProtoType2"
-            BlueprintName = "ProtoType2"
+            BlueprintIdentifier = "845B4B4C2AF8F3510065A40D"
+            BuildableName = "GrandTarget"
+            BlueprintName = "GrandTarget"
             ReferencedContainer = "container:ProtoType2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

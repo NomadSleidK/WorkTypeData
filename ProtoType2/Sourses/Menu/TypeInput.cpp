@@ -1,6 +1,6 @@
 #include "Libraries.h"
 
-bool IsNameType(char simbol)
+bool IsNameType(char simbol) //проверяет правильность ведённого имени типа
 {
     bool flag = false;
     
@@ -16,7 +16,7 @@ bool IsNameType(char simbol)
     return flag;
 }
 
-char InputDataType()
+char InputDataType() //меню запроса на ввод типа данных для работы
 {
     char result;
     

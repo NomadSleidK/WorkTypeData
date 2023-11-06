@@ -1,6 +1,6 @@
 #include "Libraries.h"
 
-bool ComandIsGood(char *dataInput)
+bool ComandIsGood(char *dataInput) //проверка правильности значения введённой команды
 {
     bool flag = true;
     int sizeDataInput = (int)strlen(dataInput);
