@@ -1,7 +1,7 @@
 #include "Libraries.h"
 #include "ControlTemplatesEx2.h"
 
-bool InputTypeCheckEx2(char *dataInput, char typeId) //определяет тип ввода
+bool InputTypeCheckEx2(char *dataInput, char typeId) //определяет тип вводимого значения матрицы
 {
     bool result = true;
     

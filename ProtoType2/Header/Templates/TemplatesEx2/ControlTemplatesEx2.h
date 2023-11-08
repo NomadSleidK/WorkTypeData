@@ -3,7 +3,7 @@
 #include "OperationTemplatesEx2.h"
 #include "IsPosibleOperationsEx2.h"
 
-template <typename T> void DispleyMaxSumDiagonal(T **matrix, int sizeMatrix)//вывод результата операции 2
+template <typename T> void DispleyMaxSumDiagonal(T **matrix, int sizeMatrix) //вывод результата операции 2
 {
     T resultMaxSum = 0;
     
@@ -18,12 +18,17 @@ template <typename T> void DispleySumLineNoMin(T **matrix, int sizeMatrix)//вы
     
     resultMatrix = SumLineNoMin(matrix, sizeMatrix); //возвращаем массив результатов операции
     sizeResultMatrix = AmountLines(matrix, sizeMatrix); //присваиваем размер массива результатов
+    
     for (int hight = 0; hight < sizeResultMatrix; hight++)//выводим массив результатов
     {
         cout << "Строка: " << resultMatrix[0][hight];
         cout << " Сумма элементов: " << resultMatrix[1][hight] << endl ;
     }
     
+    for (int i = 0; i < sizeMatrix; i++)
+    {
+        delete resultMatrix[i];
+    }
     delete[] resultMatrix;
 }
 
@@ -45,10 +50,13 @@ template <typename T> void Ex2ComandControl(T **matrix, int sizeMatrix, T type) 
 {
     int command = 0;
     
+    bool operationFirst = IsPossibleMatrixOperationFirst(matrix, sizeMatrix, type);
+    bool operationSecond = IsPossibleMatrixOperationSecond(sizeMatrix);
+    
     DispleyInputResult (matrix, sizeMatrix);
     do //цикл вызова команд
     {
-        command = Ex2ComandInput(); //ввод команды
+        command = Ex2ComandInput(operationFirst, operationSecond); //ввод команды
         system("clear");
         DispleyInputResult(matrix, sizeMatrix);
         switch (command) {
@@ -57,11 +65,19 @@ template <typename T> void Ex2ComandControl(T **matrix, int sizeMatrix, T type) 
                 {
                     DispleySumLineNoMin(matrix, sizeMatrix);
                 }
+                else
+                {
+                    cout << "Команды с таким номером нет" << endl;
+                }
                 break;
             case 2:
                 if (IsPossibleMatrixOperationSecond(sizeMatrix) == true)//проверка на выполнимость операции 2
                 {
                     DispleyMaxSumDiagonal(matrix, sizeMatrix);//вывод результата операции 2
+                }
+                else
+                {
+                    cout << "Команды с таким номером нет" << endl;
                 }
                 break;
         }
@@ -117,6 +133,7 @@ template <typename T> T **MatrixInput(int sizeMatrix, T type, char typeId)//фу
                 cin >> setw(11) >> inputBoofer;//ввод элемента в массив символов
             }
             while(InputTypeCheckEx1(inputBoofer, typeId) == false);//выход из цикла если функция проверки одобрит
+            
             matrix[row][hight]= atof(inputBoofer); //присвоение элементу матрицы значения введённого значен
             element++;
             amountElements++;
@@ -131,4 +148,10 @@ template <typename T> void MatrixTypeInput(int sizeMatrix, T type, char typeId) 
     matrix = MatrixInput(sizeMatrix, type, typeId);
     
     Ex2ComandControl(matrix, sizeMatrix, type);
+    
+    for (int i = 0; i < sizeMatrix; i++)
+    {
+        delete [] matrix[i];
+    }
+    delete [] matrix;
 }

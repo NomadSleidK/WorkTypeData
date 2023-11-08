@@ -14,6 +14,7 @@ template <typename T> T *ArrayCompression(T *array, int arraySize, T type) //ф�
             index++;
         }
     }
+    
     for (; index < arraySize; index++) //через разницу длины массива и количества заполняем оставшиеся поля массива нулями
     {
         result[index] = 0.0;

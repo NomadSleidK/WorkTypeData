@@ -1,7 +1,7 @@
 #include "Libraries.h"
 #include "ControlTemplatesEx1.h"
 
-bool InputTypeCheckEx1(char *dataInput, char typeId) //определяет тип ввода
+bool InputTypeCheckEx1(char *dataInput, char typeId) //определяет тип вводимого значения массива
 {
     bool result = true;
     

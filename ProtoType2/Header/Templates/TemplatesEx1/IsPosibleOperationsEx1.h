@@ -17,7 +17,7 @@ template <typename T> bool IsPossibleOperationThird(T *array, int arraySize, T t
     }
     if (amountElements == arraySize) //если количество таких элементов = размеру массив то выдавать ошибку
     {
-        cout << "В массиве нет элементов по модулю меньше единицы" << endl << endl;
+        //cout << "В массиве нет элементов по модулю меньше единицы" << endl << endl;
         flag = false;
     }
     return flag;
@@ -37,11 +37,11 @@ template <typename T> bool IsPossibleOperationSecond(T *array, int arraySize, T 
     }
     switch (amountMineElements) { //если в массиве нет или только один отрицательный элемент то выдаём ошибку
         case 0:
-            cout << "Не удалось выполнить операцию: в массиве нет отрицательных элементов" << endl << endl;
+            //cout << "Не удалось выполнить операцию: в массиве нет отрицательных элементов" << endl << endl;
             Flag = false;
             break;
         case 1:
-            cout << "Не удалось выполнить операцию: в массиве только один отрицательный элемент" << endl << endl;
+            //cout << "Не удалось выполнить операцию: в массиве только один отрицательный элемент" << endl << endl;
             Flag = false;
             break;
     }
@@ -66,11 +66,11 @@ template <typename T> bool IsPossibleOperationSecond(T *array, int arraySize, T 
         amountMineElements = lastIndex - firstIndex; //разница между первым и последним отрицательными элементами
         switch (amountMineElements) { //если элементы расположенны слишком близко выдаём ошибку
             case 1:
-                cout << "Не удалось выполнить операцию: необходимые отрицательные элементы расположены последовательно" << endl << endl;
+                //cout << "Не удалось выполнить операцию: необходимые отрицательные элементы расположены последовательно" << endl << endl;
                 Flag = false;
                 break;
             case 2:
-                cout << "Не удалось выполнить операцию: между искомыми элементами только одно значение" << endl << endl;
+                //cout << "Не удалось выполнить операцию: между искомыми элементами только одно значение" << endl << endl;
                 Flag = false;
                 break;
         }

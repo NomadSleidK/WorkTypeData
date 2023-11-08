@@ -1,9 +1,9 @@
 #include "Libraries.h"
 
-bool Ex1CheckComandInput (char *dataInput) //функция проверки корректности введённой команды
+bool Ex1CheckComandInput(char *dataInput) //функция проверки корректности введённой команды
 {
-    int comand = 0;
     int sizeDataInput = (int)strlen(dataInput);
+    int command = 0;
     bool flag = true;
     
     system("clear");
@@ -11,7 +11,7 @@ bool Ex1CheckComandInput (char *dataInput) //функция проверки к�
     {
         if (ispunct(dataInput[i])) //проверка на наличие символов
         {
-            cout << "Команда должна быть целым числом и не содержит знаков" << endl << endl;
+            cout << "Команда должн быть целым числом и не содержит знаков" << endl << endl;
             flag = false;
             break;
         }
@@ -22,23 +22,30 @@ bool Ex1CheckComandInput (char *dataInput) //функция проверки к�
             break;
         }
     }
-    comand = atoi(dataInput);
-    if ((comand > 3) && (flag == true)) //
+    
+    command = atoi(dataInput); //проверка на наличие номера команды
+    if ((command > 3) && (flag == true))
     {
-        cout << "Команды с данным номером не существует" << endl << endl;
+        cout << "Команды с таким номером нет" << endl << endl;
         flag = false;
     }
-    cout << endl;
     return flag;
 }
 
-int Ex1ComandInput() //функция ввода комады для обработки массива
+int Ex1ComandInput(bool operationFirst, bool operationSecond, bool operationThird ) //функция ввода комады для обработки массива
 {
     int result =  0;
     char inputBoofer [11] = {0};
     
     do
     {
+        if (operationFirst == true) {TextOut(7);}
+        if (operationSecond == true) {TextOut(8);}
+        if (operationThird == true) {TextOut(9);}
+        if (!operationFirst && !operationSecond && !operationThird)
+        {
+            cout << "Нет выполнимых операций для введённых вами данных" << endl << endl;
+        }
         TextOut(1);
         cout << "Введите номер команды для обработки массива: " << endl;
         cin >> setw(11) >> inputBoofer; //ввод команды в символьный массив

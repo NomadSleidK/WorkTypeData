@@ -61,7 +61,7 @@ void Ex1main(char typeId); //главная функция задания 1
 
 bool Ex1CheckComandInput (char *dataInput); //функция проверки корректности введённой команды
 
-int Ex1ComandInput(); //функция ввода комады для обработки массива
+int Ex1ComandInput(bool operationFirst, bool operationSecond, bool operationThird); //функция ввода комады для обработки массива
 
 int ArraySizeInput(); //ввод размерности массива
 
@@ -86,7 +86,7 @@ void Ex2main(char typeId); //главная функция задания 1
 
 bool Ex2CheckComandInput(char *dataInput); //функция проверки корректности введённой команды
 
-int Ex2ComandInput(); //функция ввода команды для обработки матрицы
+int Ex2ComandInput(bool operationFirst, bool operationSecond); //функция ввода команды для обработки матрицы
 
 int MatrixSizeInput(); //функция ввода размерности матрицы
 

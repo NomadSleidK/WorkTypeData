@@ -32,13 +32,19 @@ bool Ex2CheckComandInput(char *dataInput) //функция проверки ко
     return flag;
 }
 
-int Ex2ComandInput()//функция ввода команды для обработки матрицы
+int Ex2ComandInput(bool operationFirst, bool operationSecond)//функция ввода команды для обработки матрицы
 {
     char inputBoofer [11] = {0};
     int result = 0;
     
     do
     {
+        if (operationFirst == true) {TextOut(10);}
+        if (operationSecond == true) {TextOut(11);}
+        if (!operationFirst && !operationSecond)
+        {
+            cout << "Нет выполнимых операций для введённых вами данных" << endl << endl;
+        }
         TextOut(2);
         cout << "Введите команду для работы с матрицей: " << endl;
         cin >> setw(11) >> inputBoofer;//ввод в массив символов

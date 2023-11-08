@@ -19,12 +19,12 @@ template <typename T> bool IsPossibleMatrixOperationFirst(T **matrix, int sizeMa
     }
     if (amountMineElements == sizeMatrix) //проверка количества подсчитанных строк
     {
-        cout << "Все строки массива содержат хотя бы один отрицательный элемент" << endl << endl;
+        //cout << "Все строки массива содержат хотя бы один отрицательный элемент" << endl << endl;
         flag = false;
     }
     if (sizeMatrix == 1 && flag == true)//проверка размерности матрицы
     {
-        cout << "Для данной операции размер матирицы должен быть больше единицы" << endl << endl;
+        //cout << "Для данной операции размер матирицы должен быть больше единицы" << endl << endl;
         flag = false;
     }
     return flag;

@@ -5,7 +5,6 @@ bool IsPossibleOperationFirst(int arraySize)//проверка на реализ
     bool flag = true;
     
     if (arraySize < 4){ //если размер массива меньше 4 то выдаём ошибку
-        cout << "Не удалось выполнить операцию: в массиве должно быть минимум 4 элемента" << endl << endl;
         flag = false;
     }
     return flag;
